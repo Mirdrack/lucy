@@ -39,6 +39,9 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                @can('edit_user')
+                <div class="title">Can</div>
+                @endcan
             </div>
         </div>
     </body>
